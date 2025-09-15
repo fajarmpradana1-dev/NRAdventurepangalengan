@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NR Adventure - Pilih Petualanganmu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>NR Adventure</h1>
+            <p>PILIH RENCANA YANG TEPAT UNTUKMU</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="packages-section">
+            <h2>PAKET KAMI</h2>
+            
+            <div class="package-tabs">
+                <button class="tab-button active" onclick="showTab('full-day')">FULL DAY</button>
+                <button class="tab-button" onclick="showTab('camp')">CAMP 2 HARI 1 MALAM</button>
+                <button class="tab-button" onclick="showTab('staycation')">STAYCATION</button>
+            </div>
+
+            <div id="full-day" class="tab-content active">
+                <div class="package-card">
+                    <h3>STANDAR</h3>
+                    <p class="price">175K/Orang</p>
+                    <p class="min-person">Min 5 Orang</p>
+                    <ul class="activities">
+                        <li>Rafting</li>
+                    </ul>
+                </div>
+                <div class="package-card">
+                    <h3>ENHANCED</h3>
+                    <p class="price">195K/Orang</p>
+                    <p class="min-person">Min 5 Orang</p>
+                    <ul class="activities">
+                        <li>Rafting</li>
+                        <li>Flying Fox</li>
+                    </ul>
+                </div>
+                </div>
+
+            <div id="camp" class="tab-content">
+                <div class="package-card">
+                    <h3>STANDAR</h3>
+                    <p class="price">300K/Orang</p>
+                    <p class="min-person">Min 4 Orang</p>
+                    <ul class="activities">
+                        <li>Rafting</li>
+                        <li>Camp</li>
+                        <li>Api Unggun</li>
+                    </ul>
+                </div>
+                <div class="package-card">
+                    <h3>ENHANCED</h3>
+                    <p class="price">400K/Orang</p>
+                    <p class="min-person">Min 4 Orang</p>
+                    <ul class="activities">
+                        <li>Rafting</li>
+                        <li>Flying Fox</li>
+                        <li>Camp</li>
+                        <li>Api Unggun</li>
+                    </ul>
+                </div>
+                </div>
+
+            <div id="staycation" class="tab-content">
+                <div class="package-card">
+                    <h3>STANDAR</h3>
+                    <p class="price">510K/Orang</p>
+                    <p class="min-person">Min 25 Orang</p>
+                    <ul class="activities">
+                        <li>Rafting</li>
+                        <li>Flying Fox</li>
+                        <li>Paintball</li>
+                        <li>Villa</li>
+                    </ul>
+                </div>
+                <div class="package-card">
+                    <h3>PREMIUM</h3>
+                    <p class="price">640K/Orang</p>
+                    <p class="min-person">Min 4 Orang</p>
+                    <ul class="activities">
+                        <li>Rafting</li>
+                        <li>Flying Fox</li>
+                        <li>Paintball</li>
+                        <li>Fun Game</li>
+                        <li>Barbeque</li>
+                        <li>Live Music</li>
+                        <li>Villa</li>
+                    </ul>
+                </div>
+                </div>
+        </section>
+
+        <section class="include-section">
+            <h3>SEMUA PAKET TERMASUK</h3>
+            <div class="include-list">
+                <div class="include-item">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/ok--v1.png" alt="ikon centang">
+                    <p>Makan</p>
+                </div>
+                <div class="include-item">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/ok--v1.png" alt="ikon centang">
+                    <p>Dokumentasi</p>
+                </div>
+                <div class="include-item">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/ok--v1.png" alt="ikon centang">
+                    <p>Transportasi Lokal</p>
+                </div>
+                <div class="include-item">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/ok--v1.png" alt="ikon centang">
+                    <p>Instruktur</p>
+                </div>
+                <div class="include-item">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/ok--v1.png" alt="ikon centang">
+                    <p>P3K</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h3>Hubungi Kami</h3>
+            <div class="contact-info">
+                <a href="https://wa.me/6289535158127" class="whatsapp-button">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+                    0895-3515-8127 (Nurdin)
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
